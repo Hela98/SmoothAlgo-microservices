@@ -1,0 +1,7 @@
+entity DrugCoveredBySocialSecurity {
+  codeCIP Long required unique,
+  drugName String required
+}
+
+
+

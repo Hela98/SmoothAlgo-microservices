@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.smoothalgo.medim"
+    },
+    "jhipsterVersion": "5.0.2",
+    "applicationType": "microservice",
+    "baseName": "medim",
+    "packageName": "com.smoothalgo.medim",
+    "packageFolder": "com/smoothalgo/medim",
+    "serverPort": "8082",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "620917a088a586d50d87f57c75fa5bbd0920dc0c",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "yarn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

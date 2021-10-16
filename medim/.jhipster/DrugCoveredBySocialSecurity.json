@@ -1,0 +1,24 @@
+{
+    "name": "DrugCoveredBySocialSecurity",
+    "fields": [
+        {
+            "fieldName": "codeCip",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "drugName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20210830213411",
+    "entityTableName": "drug_covered_by_social_security",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "microserviceName": "medim"
+}
