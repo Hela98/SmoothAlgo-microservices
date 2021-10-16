@@ -1,0 +1,4 @@
+entity BeneficiaryOfHealthCoverage {
+    firstName String required
+}
+

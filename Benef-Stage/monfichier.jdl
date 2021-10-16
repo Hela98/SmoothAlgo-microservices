@@ -1,0 +1,12 @@
+entity BeneficiaryOfHealthCoverage {
+    firstName String required pattern(/^[A-Z][a-z]+\d$/) minlength(3) maxlength(20),
+    lastName String required pattern(/^[A-Z][a-z]+\d$/) minlength(3) maxlength(20),
+    dateOfBirth Instant required,
+    socialSecurityNumber Long required unique,
+    healthCoverageStartDate Instant required,
+    healthCoverageEndDate Instant required,
+    reimbursementCeiling Integer required,
+    remainingAmount Integer
+    
+}
+
